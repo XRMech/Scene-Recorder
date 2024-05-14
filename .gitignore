@@ -1,6 +1,9 @@
-\Library
-\Scene-Recorder\SceneStream\Assets\Samples
 /SceneStream/Assets/Samples
 /SceneStream/.idea
 /SceneStream/Library
 /SceneStream/Logs
+/SceneStream/Temp
+SceneStream/Assembly-CSharp.csproj
+SceneStream/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj
+SceneStream/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj
+*.csproj

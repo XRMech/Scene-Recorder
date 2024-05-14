@@ -1,5 +1,9 @@
-public interface IVideoRecorder
+
+namespace SceneStream
 {
-    void StartRecording(string outputPath);
-    void StopRecording();
+    public interface IVideoRecorder
+    {
+        void StartRecording(string outputPath);
+        void StopRecording();
+    }
 }
