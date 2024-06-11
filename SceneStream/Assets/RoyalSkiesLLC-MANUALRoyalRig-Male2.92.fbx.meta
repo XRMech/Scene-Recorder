@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 63cd1771729fad247bbf3568b6174a29
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Armature
+    - Armature/cMainH
+    - Armature/cMainH/cMainV
+    - Armature/cMainH/cMainV/cMainS
+    - Armature/cMainH/cMainV/cMainS/Spine0
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/cBicep.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/cWrist.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Middle1.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Middle1.L/Middle2.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Middle1.L/Middle2.L/Middle3.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Pinky1.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Pinky1.L/Pinky2.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Pinky1.L/Pinky2.L/Pinky3.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Pointer1.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Pointer1.L/Pointer2.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Pointer1.L/Pointer2.L/Pointer3.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Ring1.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Ring1.L/Ring2.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Ring1.L/Ring2.L/Ring3.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Thumb1.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Thumb1.L/Thumb2.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Bicep.L/Elbow.L/4arm.L/Hand.L/weapon.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.L/Shoulder.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/cBicep.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/cWrist.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Middle1.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Middle1.R/Middle2.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Middle1.R/Middle2.R/Middle3.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Pinky1.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Pinky1.R/Pinky2.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Pinky1.R/Pinky2.R/Pinky3.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Pointer1.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Pointer1.R/Pointer2.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Pointer1.R/Pointer2.R/Pointer3.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Ring1.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Ring1.R/Ring2.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Ring1.R/Ring2.R/Ring3.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Thumb1.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Thumb1.R/Thumb2.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Bicep.R/Elbow.R/4arm.R/Hand.R/weapon.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/cShrugger.R/Shoulder.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/Neck
+    - Armature/cMainH/cMainV/cMainS/Spine0/coreIK/Spine3/Neck/Head
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/cButt.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/cButt.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/cThigh.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/cThigh.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.L/cHip.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.L/Knee.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.L/Knee.L/Shin.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.L/Knee.L/Shin.L/Foot.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.L/Knee.L/Shin.L/Foot.L/Toe1.L
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.R/cHip.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.R/Knee.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.R/Knee.R/Shin.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.R/Knee.R/Shin.R/Foot.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Hip.R/Knee.R/Shin.R/Foot.R/Toe1.R
+    - Armature/cMainH/cMainV/cMainS/Spine0/hipSwing/Spine2
+    - Body
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Spine0
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

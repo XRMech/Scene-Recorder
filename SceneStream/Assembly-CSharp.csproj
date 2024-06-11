@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2022_3_9;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_9;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -45,29 +45,38 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SceneStream\Scripts\Windows\EditorVideoRecorder.cs" />
+     <Compile Include="Assets\SceneStream\Scripts\Android\SMBUtils.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
+     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\AotStubs.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
+     <Compile Include="Assets\ThreeDButton.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
      <Compile Include="Assets\SceneStream\Scripts\SceneStreamManager.cs" />
+     <Compile Include="Assets\SpawnBall.cs" />
+     <Compile Include="Assets\SceneStream\Scripts\Android\PathUtil.cs" />
+     <Compile Include="Assets\CharacterMovement.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
+     <Compile Include="Assets\SceneStream\Scripts\Android\PermissionRequester.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
+     <Compile Include="Assets\SceneStream\Scripts\CameraStreamer.cs" />
      <Compile Include="Assets\SceneStream\Scripts\Android\AndroidVideoRecorder.cs" />
+     <Compile Include="Assets\SceneStream\Scripts\Windows\VideoCompiler.cs" />
      <Compile Include="Assets\SceneStream\Scripts\IVideoRecorder.cs" />
+     <Compile Include="Assets\SceneStream\Scripts\BuildScript.cs" />
      <Compile Include="Assets\SceneStream\Scripts\CameraRecorder.cs" />
+     <Compile Include="Assets\SceneStream\Scripts\BaseCamera.cs" />
      <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
      <Compile Include="Assets\SceneStream\Scripts\Windows\ffmpeg\FFmpegHelper.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\VRTemplateAssets\Models\Environment" />
-     <Folder Include="Assets\Samples\XR Interaction Toolkit" />
      <Folder Include="Assets\VRTemplateAssets\Materials\Primitive" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\XRI\Settings" />
@@ -75,10 +84,12 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\VRTemplateAssets\Prefabs\TutorialPlayer" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\WebGLTemplates\WebXR2020" />
      <None Include="Assets\VRTemplateAssets\Shaders\FauxBlurURP.shader" />
      <Folder Include="Assets\VRTemplateAssets\Models\Poke" />
      <Folder Include="Assets\VRTemplateAssets\Prefabs\UI" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Meta Gaze Adapter" />
      <Folder Include="Assets\VRTemplateAssets\Materials\Locomotion" />
      <Folder Include="Assets\Samples" />
      <Folder Include="Assets\XRI" />
@@ -87,12 +98,16 @@
      <Folder Include="Assets\VRTemplateAssets\Fonts\Inter" />
      <Folder Include="Assets\XRI\Settings\Resources" />
      <Folder Include="Assets\VRTemplateAssets\Models" />
+     <Folder Include="Assets\WebGLTemplates\WebXR2020\TemplateData" />
+     <Folder Include="Assets\Oculus" />
      <Folder Include="Assets\VRTemplateAssets\Sprites" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\VRTemplateAssets" />
+     <None Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\link.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\Scenes\SampleScene" />
      <Folder Include="Assets\SceneStream\Scripts" />
+     <Folder Include="Assets\WebGLTemplates" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\VRTemplateAssets\Materials\Anchor Materials" />
@@ -105,13 +120,16 @@
      <Folder Include="Assets\VRTemplateAssets\Prefabs\Setup" />
      <Folder Include="Assets\VRTemplateAssets\Prefabs\Blink" />
      <Folder Include="Assets\VRTemplateAssets\Materials\Pointer" />
+     <Folder Include="Assets\Samples\XR Hands\1.4.1" />
+     <Folder Include="Assets\Samples\XR Hands" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\VRTemplateAssets\Materials" />
      <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\WebXR" />
      <Folder Include="Assets\VRTemplateAssets\Materials\Environment" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Flow" />
      <Folder Include="Assets\SceneStream" />
      <Folder Include="Assets\SceneStream\Scripts\Android" />
-     <None Include="Assets\Samples\XR Interaction Toolkit\2.4.3\Tunneling Vignette\TunnelingVignette.shader" />
      <Folder Include="Assets\VRTemplateAssets\Models\Anchor" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\VRTemplateAssets\Shaders\Grid.shader" />
@@ -120,6 +138,7 @@
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Samples\XR Interaction Toolkit\2.5.4" />
      <Folder Include="Assets\VRTemplateAssets\Models\Blink" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -131,10 +150,13 @@
      <Folder Include="Assets\VRTemplateAssets\Sprites\UI" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\VRTemplateAssets\Audio" />
-     <Folder Include="Assets\Samples\XR Interaction Toolkit\2.4.3\Tunneling Vignette" />
+     <Folder Include="Assets\Samples\XR Interaction Toolkit" />
      <Folder Include="Assets\Scenes\BasicScene" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\Oculus\VR" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\WebGLTemplates\WebXRFullView2020\TemplateData" />
+     <Folder Include="Assets\Materials" />
      <Folder Include="Assets\Settings\Project Configuration" />
      <Folder Include="Assets\VRTemplateAssets\Tutorial" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
@@ -148,12 +170,13 @@
      <Folder Include="Assets\VRTemplateAssets\Scripts" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\FFmpegOut\Resources" />
-     <Folder Include="Assets\Samples\XR Interaction Toolkit\2.4.3" />
      <None Include="Assets\FFmpegOut\Resources\Blitter.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\VRTemplateAssets\Materials\Particles" />
      <Folder Include="Assets\FFmpegOut" />
      <Folder Include="Assets\VRTemplateAssets\Fonts" />
+     <Folder Include="Assets\WebGLTemplates\WebXRFullView2020" />
+     <Folder Include="Assets\Resources" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Assets\VRTemplateAssets\Sprites\Icons" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -167,9 +190,11 @@
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\VRTemplateAssets\Prefabs\Controller" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core" />
      <Folder Include="Assets\VRTemplateAssets\Graphics" />
      <None Include="Assets\VRTemplateAssets\Materials\Skybox\Horizontal Skybox.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated" />
      <Folder Include="Assets\VRTemplateAssets\Models\Marks" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Folder Include="Assets\VRTemplateAssets\Prefabs\Teleport" />
@@ -178,9 +203,6 @@
      </Reference>
      <Reference Include="UnityEngine.AIModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.ARModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AccessibilityModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
@@ -359,6 +381,9 @@
      <Reference Include="UnityEngine.VideoModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEngine.WebGLModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.WebGLModule.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.WindModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
      </Reference>
@@ -413,11 +438,29 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="System.IO.Abstractions">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.ml-agents@2.0.1\Plugins\System.IO.Abstractions.dll</HintPath>
+     </Reference>
      <Reference Include="ReportGeneratorMerged">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
+     <Reference Include="System.Interactive.Async">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.ml-agents@2.0.1\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Google.Protobuf">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.barracuda@3.0.0\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
+     </Reference>
+     <Reference Include="Grpc.Core">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.ml-agents@2.0.1\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Abstractions.TestingHelpers">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\PackageCache\com.unity.ml-agents@2.0.1\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -797,14 +840,8 @@
      <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.Management">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="com.unity.cinemachine.editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
@@ -812,32 +849,14 @@
      <Reference Include="Unity.Burst.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Animation.Rigging.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+     <Reference Include="Unity.XR.Hands">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Formats.Fbx.Runtime">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.CoreUtils">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
@@ -848,17 +867,11 @@
      <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.Management.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Formats.Fbx.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
@@ -866,41 +879,20 @@
      <Reference Include="PPv2URPConverters">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.CoreUtils.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Tutorials.Core.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Animation.Rigging">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.XR.Oculus.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Interaction.Toolkit">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.InternalAPIEditorBridge.007">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEngineBridge.007">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
@@ -908,11 +900,125 @@
      <Reference Include="Unity.RenderPipelines.Universal.Runtime">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Barracuda.ONNX">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Barracuda.ONNX.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Barracuda.MacBLAS">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Barracuda.MacBLAS.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Tutorials.Core">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Barracuda">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Barracuda.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InputSystem.ForUI">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ML-Agents">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.ML-Agents.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ML-Agents.CommunicatorObjects">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
+     </Reference>
+     <Reference Include="Autodesk.Fbx.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Barracuda.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Barracuda.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="glTFast.dots">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Management">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="glTFast.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\glTFast.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Animation.Rigging.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ML-Agents.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.ML-Agents.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Formats.Fbx.Runtime">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.WebRTC">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.WebRTC.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.CoreUtils">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Management.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.CoreUtils.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Tutorials.Core.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Animation.Rigging">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Interaction.Toolkit">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
@@ -926,17 +1032,11 @@
      <Reference Include="Unity.ShaderGraph.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Tutorials.Core">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
+     <Reference Include="Unity.Barracuda.iOSBLAS">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Barracuda.iOSBLAS.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SpatialTracking">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -947,26 +1047,23 @@
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.XR.Hands.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     <Reference Include="Unity.Barracuda.BurstBLAS">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Barracuda.BurstBLAS.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InputSystem.ForUI">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
@@ -980,53 +1077,82 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
-     <Reference Include="Autodesk.Fbx">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+     <Reference Include="Unity.WebRTC.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.WebRTC.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="glTFast">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\glTFast.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Autodesk.Fbx.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+     <Reference Include="Autodesk.Fbx">
+     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Searcher.Editor">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Cinemachine">
      <HintPath>C:\Users\clint\Scene-Recorder\SceneStream\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="FFmpegOut.Editor.csproj">
-      <Project>{297b97e3-933d-ac6b-344c-b613b155fef5}</Project>
-      <Name>FFmpegOut.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="FFmpegOut.csproj">
       <Project>{e08c823d-694a-1a63-07a2-ed2a626154b2}</Project>
       <Name>FFmpegOut</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{9ec296f3-13a6-a44a-08da-7944b8615027}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
       <Project>{bc5c15a0-aad8-b0a2-58e7-7522ddc7cebf}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{9ec296f3-13a6-a44a-08da-7944b8615027}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj">
+      <Project>{9b0fe527-3179-f57f-ca0a-d1ef81d07640}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
+      <Project>{bd1f9387-3e51-2e1f-3c8c-578258e24225}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter.csproj">
+      <Project>{a30441c8-fdc1-57c3-4212-dbdda80cdd59}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="FFmpegOut.Editor.csproj">
+      <Project>{297b97e3-933d-ac6b-344c-b613b155fef5}</Project>
+      <Name>FFmpegOut.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj">
+      <Project>{623b8bfe-f225-70f2-61b3-6855c48658c8}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
+      <Project>{8f5a0ed3-329c-dddc-4360-a729369add3a}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
+      <Project>{6afa7940-3c66-b1e5-b484-80a2e9804fe6}</Project>
+      <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
+      <Project>{83598262-c46f-51ef-5e03-b3893440480d}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter.Editor.csproj">
+      <Project>{be354ff4-fc13-4830-b53d-2195874a4117}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
