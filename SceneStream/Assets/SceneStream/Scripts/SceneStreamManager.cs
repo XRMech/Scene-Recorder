@@ -19,6 +19,7 @@ namespace SceneStream
         public string SavePath;
         internal string framesDirectory;
         string audioPath;
+        public string serverUrl = "http://localhost:3000/";
         public Dictionary<string, BaseCamera> cameraList = new Dictionary<string, BaseCamera>();
         [SerializeField] private Image buttonFront;
 
@@ -33,11 +34,9 @@ namespace SceneStream
             Instance = this;
             if (string.IsNullOrEmpty(SavePath))
                 SavePath = Path.Combine(Application.persistentDataPath, "SceneStream");
-
-            Debug.Log($"[SceneStreamManager] SavePath: {SavePath}");
+            
             captureInterval = 1 / frameRate;
             framesDirectory = Path.Combine(SavePath, "VideoFrames");
-            Debug.Log($"[SceneStreamManager] framesDirectory: {framesDirectory}");
             audioPath = Path.Combine(SavePath, "captured_audio.wav");
         }
 

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
 using Unity.WebRTC;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -29,7 +30,7 @@ namespace SceneStream
 #endif
 
        
-
+        
         public Camera recordingCamera;
         public string cameraName;
         private RenderTexture renderTexture;
@@ -135,6 +136,7 @@ namespace SceneStream
 
     public class RTCConnectionManager : IDisposable
     {
+        
         private RTCPeerConnection localConnection;
         private RTCDataChannel sendChannel;
         private MonoBehaviour owner;
@@ -195,7 +197,7 @@ namespace SceneStream
 
         private IEnumerator SendOfferToServer(RTCSessionDescription offerDesc)
         {
-            string serverUrl = "http://localhost:3000/offer";
+            
             var offerJson = JsonUtility.ToJson(new RTCSessionDescriptionWrapper
             {
                 type = "offer",
@@ -203,7 +205,7 @@ namespace SceneStream
             });
             Debug.Log($"Sending offer to server: {offerJson}");
 
-            using (UnityWebRequest request = new UnityWebRequest(serverUrl, "POST"))
+            using (UnityWebRequest request = new UnityWebRequest(SceneStreamManager.Instance.serverUrl + "offer", "POST"))
             {
                 byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(offerJson);
                 request.uploadHandler = new UploadHandlerRaw(bodyRaw);
@@ -227,11 +229,46 @@ namespace SceneStream
             }
         }
 
-        private void SendIceCandidateToServer(RTCIceCandidate candidate)
+        public void SendIceCandidateToServer(RTCIceCandidate candidate)
         {
             Debug.Log($"Sending ICE candidate to server: {candidate.Candidate}");
-            // Example: Send to your signaling server here
+            var candidateJson = JsonUtility.ToJson(candidate);
+            SendCandidateToServerAsync(candidateJson);
         }
+
+        private async void SendCandidateToServerAsync(string candidateJson)
+        {
+            using (UnityWebRequest request = new UnityWebRequest(SceneStreamManager.Instance.serverUrl + "candidate", "POST"))
+            {
+                byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(candidateJson);
+                request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                request.downloadHandler = new DownloadHandlerBuffer();
+                request.SetRequestHeader("Content-Type", "application/json");
+
+                var operation = request.SendWebRequest();
+
+                while (!operation.isDone)
+                {
+                    await Task.Yield();
+                }
+
+                if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+                {
+                    Debug.LogError("Error sending candidate: " + request.error);
+                }
+                else
+                {
+                    Debug.Log("Candidate successfully sent.");
+                }
+            }
+        }
+
+        public void AddIceCandidate(RTCIceCandidateInit candidateInit)
+        {
+            var candidate = new RTCIceCandidate(candidateInit);
+            localConnection.AddIceCandidate(candidate);
+        }
+
 
         public void SendFrame(byte[] frameData)
         {
