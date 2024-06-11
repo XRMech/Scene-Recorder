@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageEncoder", "ImageEncoder\ImageEncoder.vcxproj", "{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageEncoderAndroid", "ImageEncoderAndroid\ImageEncoderAndroid.vcxproj", "{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|ARM.ActiveCfg = Debug|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|ARM.Build.0 = Debug|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|ARM64.ActiveCfg = Debug|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|ARM64.Build.0 = Debug|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|x64.ActiveCfg = Debug|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|x64.Build.0 = Debug|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Debug|x86.Build.0 = Debug|Win32
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|ARM.ActiveCfg = Release|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|ARM.Build.0 = Release|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|ARM64.ActiveCfg = Release|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|ARM64.Build.0 = Release|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|x64.ActiveCfg = Release|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|x64.Build.0 = Release|x64
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|x86.ActiveCfg = Release|Win32
+		{C1B3F84B-AA2B-4316-A31A-0E4C96BDE148}.Release|x86.Build.0 = Release|Win32
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|ARM.Build.0 = Debug|ARM
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|ARM64.Build.0 = Debug|ARM64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|x64.ActiveCfg = Debug|x64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|x64.Build.0 = Debug|x64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|x86.ActiveCfg = Debug|x86
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Debug|x86.Build.0 = Debug|x86
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|ARM.ActiveCfg = Release|ARM
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|ARM.Build.0 = Release|ARM
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|ARM64.ActiveCfg = Release|ARM64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|ARM64.Build.0 = Release|ARM64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|x64.ActiveCfg = Release|x64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|x64.Build.0 = Release|x64
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|x86.ActiveCfg = Release|x86
+		{E78E4DF9-9D89-4BBE-A191-3C5B9F341E36}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F78222E-304A-4EDD-8D33-BD9DBA0C240B}
+	EndGlobalSection
+EndGlobal
