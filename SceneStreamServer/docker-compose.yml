@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27018:27017"  # Change host port to 27018
+    volumes:
+      - mongo-data:/data/db
+volumes:
+  mongo-data:

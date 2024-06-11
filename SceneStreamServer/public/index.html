@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebRTC Test</title>
+</head>
+<body>
+<button id="startButton">Start Streaming</button>
+<button id="clearButton">Clear Data</button>
+<video id="remoteVideo" autoplay></video>
+
+<script>
+    let pc = new RTCPeerConnection({
+        iceServers: [{ urls: 'stun:stun.l.google.com:19302' }]
+    });
+
+    let isConnecting = false;
+
+    document.getElementById('startButton').addEventListener('click', async () => {
+        if (isConnecting) {
+            console.warn("Connection setup is already in progress");
+            return;
+        }
+
+        isConnecting = true;
+
+        try {
+            const offer = await pc.createOffer();
+            await pc.setLocalDescription(offer);
+
+            const response = await fetch('http://localhost:3000/offer', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    type: 'offer',  // Explicitly set the type to "offer"
+                    sdp: offer.sdp
+                })
+            });
+
+            if (response.ok) {
+                const answer = await response.json();
+                await pc.setRemoteDescription(answer);
+            } else {
+                console.error('Failed to send offer:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error starting WebRTC:', error);
+        } finally {
+            isConnecting = false;
+        }
+    });
+
+    document.getElementById('clearButton').addEventListener('click', async () => {
+        try {
+            const response = await fetch('http://localhost:3000/clear-data', {
+                method: 'POST'
+            });
+
+            if (response.ok) {
+                console.log('Data cleared successfully');
+            } else {
+                console.error('Failed to clear data:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error clearing data:', error);
+        }
+    });
+</script>
+</body>
+</html>
